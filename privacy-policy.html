@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Prestame — Política de Privacidad</title>
+<style>
+  body{font-family:system-ui,sans-serif;max-width:760px;margin:0 auto;padding:24px;color:#1f2937;line-height:1.6}
+  h1{color:#00B878}
+  h2{color:#00B878;margin-top:28px}
+  .fecha{color:#6b7280;font-size:14px}
+</style>
+</head>
+<body>
+<h1>Política de Privacidad — Prestame</h1>
+<p class="fecha">Última actualización: 1 de octubre de 2026 · Cumple con la Ley 1581 de 2012 (Colombia)</p>
+
+<h2>1. Responsable del tratamiento</h2>
+<p>Prestame (en adelante "la App"). Contacto: soporte@prestame.app</p>
+
+<h2>2. Datos que recolectamos</h2>
+<ul>
+  <li><b>Identificación:</b> nombre completo, número de celular, número de cédula, dirección y país (Colombia por defecto), foto de perfil opcional.</li>
+  <li><b>Actividad:</b> préstamos registrados, cuotas, pagos y comportamiento de pago (puntaje crediticio interno).</li>
+  <li><b>Ubicación:</b> coordenadas GPS únicamente en el momento en que un deudor acepta un préstamo, como evidencia del acuerdo, previo aviso y permiso explícito del sistema operativo.</li>
+  <li><b>Dispositivo:</b> token de notificaciones push (Firebase Cloud Messaging).</li>
+  <li><b>Seguridad:</b> PIN de ingreso (almacenado hasheado por Supabase Auth) y huella digital (gestionada localmente por el sistema operativo, nunca sale del dispositivo).</li>
+</ul>
+
+<h2>3. Finalidad</h2>
+<ul>
+  <li>Autenticación de usuarios por SMS (Twilio) o PIN.</li>
+  <li>Registro, seguimiento y aceptación de préstamos entre personas.</li>
+  <li>Cálculo y consulta del historial y puntaje crediticio dentro de la plataforma.</li>
+  <li>Envío de notificaciones y recordatorios de pago.</li>
+</ul>
+
+<h2>4. Consulta de historial crediticio</h2>
+<p>Los prestamistas pueden consultar el historial asociado a una cédula. La consulta solo muestra datos agregados (puntaje, totales, conteos de cuotas) y el resumen por préstamo; nunca expone PIN, ni datos de contacto de terceros ajenos.</p>
+
+<h2>5. Proveedores técnicos</h2>
+<p>Usamos Supabase (base de datos/autenticación), Twilio (SMS) y Firebase de Google (notificaciones). Estos proveedores procesan datos bajo sus propias políticas y con fines estrictamente técnicos.</p>
+
+<h2>6. Derechos del titular</h2>
+<p>Puedes solicitar consulta, corrección o eliminación de tus datos escribiendo a soporte@prestame.app. Atenderemos tu solicitud en máximo 15 días hábiles conforme a la ley.</p>
+
+<h2>7. Retención</h2>
+<p>Los datos se conservan mientras la cuenta esté activa. El historial crediticio puede conservarse de forma anonimizada tras la eliminación de la cuenta.</p>
+</body>
+</html>
